@@ -1,0 +1,343 @@
+﻿@using Project_RentACar.Models;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+
+    <title>View Order - Electro Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+
+        body {
+            margin-top: 20px;
+            background-image: url('/login_style/images/car_login.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        hr {
+            background-color: #69707a !important
+        }
+
+        .img-account-profile {
+            height: 10rem;
+        }
+
+        .rounded-circle {
+            border-radius: 50% !important;
+        }
+
+        .table > :not(:last-child) > :last-child > * {
+            border-bottom-color: currentColor;
+            color: wheat;
+        }
+
+        .card {
+            box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: rgb(0 0 0 / 45%);
+            background-clip: border-box;
+            border: 1px solid rgba(0,0,0,.125);
+            border-radius: 0.25rem;
+            color: white
+        }
+
+        hr {
+            margin: 1rem 0;
+            color: inherit;
+            background-color: white;
+            border: 0;
+            opacity: .25;
+            padding-bottom: 1px;
+        }
+
+        .card .card-header {
+            font-weight: 500;
+        }
+
+        .card-header:first-child {
+            border-radius: 0.35rem 0.35rem 0 0;
+        }
+
+        .card-header {
+            padding: 1rem 1.35rem;
+            margin-bottom: 0;
+            background-color: rgba(33, 40, 50, 0.03);
+            border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+            display: flex;
+            justify-content: space-between;
+            align-items: center
+        }
+
+        .text-secondary {
+            color: #dee2e6 !important;
+            font-family: monospace;
+        }
+
+        .form-control,
+        .dataTable-input {
+            display: block;
+            width: 100%;
+            padding: none;
+            font-size: 0.875rem;
+            font-weight: 400;
+            line-height: 1;
+            color: white;
+            background-color: #000000a1;
+            background-clip: padding-box;
+            border: 2px solid #f700188a;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-radius: 0.35rem;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+
+        .nav {
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+        }
+
+        .nav-borders .nav-link {
+            color: black;
+            border-bottom-width: 0.125rem;
+            border-bottom-style: solid;
+            border-bottom-color: transparent;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            padding-left: 10px;
+            padding-right: 0;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+
+        .fa-2x {
+            font-size: 2em;
+        }
+
+        .table-billing-history th,
+        .table-billing-history td {
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+            padding-left: 1.375rem;
+            padding-right: 1.375rem;
+        }
+
+        .table > :not(caption) > * > *,
+        .dataTable-table > :not(caption) > * > * {
+            background-color: var(--bs-table-bg);
+            border-bottom-width: 1px;
+            box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+            color: white;
+            padding-left: 85px
+        }
+
+        .border-start-primary {
+            border-left-color: #0061f2 !important;
+        }
+
+        .border-start-secondary {
+            border-left-color: #6900c7 !important;
+        }
+
+        .border-start-success {
+            border-left-color: #00ac69 !important;
+        }
+
+        .border-start-lg {
+            border-left-width: 0.25rem !important;
+        }
+
+        .h-100 {
+            height: 100% !important;
+        }
+
+        .text-muted {
+            color: white !important
+        }
+
+        tbody, td, tfoot, th, thead, tr {
+            border-color: inherit;
+            border-width: 0;
+            border-style: none;
+        }
+
+        th {
+            text-align: inherit;
+            text-align: -webkit-match-parent;
+            border-style: solid;
+        }
+
+        .mb-0 {
+            margin-bottom: 10px !important
+        }
+
+        .input-group {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: stretch;
+            width: 23%;
+        }
+
+        .input-group-text {
+            display: flex;
+            align-items: center;
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #dc3545;
+            text-align: center;
+            white-space: nowrap;
+            background-color: #e9ecef00;
+            border: 1px solid white;
+            border-radius: .25rem;
+        }
+
+        .nav-borders .nav-link.active {
+            color: #0061f2;
+            border-bottom-color: #0061f2;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+          integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+    <div class="container-xl px-4 mt-4">
+
+        <nav class="nav nav-borders">
+            <a class="nav-link ms-0" href="@Url.Action("Profile", "Profile")">PROFILE</a> <a class="nav-link active" href="#">RENTAL</a> <a class="nav-link" href="@Url.Action("CheckpointPurchase", "Profile")">FINANCE</a> <a class="nav-link" href="@Url.Action("Security", "Profile")">SECURITY</a>
+            <a class="nav-link" href="@Url.Action("LoadCar", "Car")">HOME</a><a style="padding-left: 500px; padding-bottom: 5px" href='https://www.paypal.com/vn/webapps/mpp/paypal-popup' title='How PayPal Works' onclick="javascript:window.open('https://www.paypal.com/vn/webapps/mpp/paypal-popup',
+                                                                 'WIPaypal', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700');
+                                                         return false;"><img src='https://www.paypalobjects.com/marketing/web/vn/manage-my-paypal-account/PP-AcceptanceMarkTray-NoDiscover-243x40-optimised.png' alt='Khay ?ánh d?u ch?p nh?n PayPal | L?n' /></a>
+        </nav>
+        <hr class="mt-0 mb-4">
+
+        @{
+            var rentals = ViewBag.listRentalContract as List<RentalContract>;
+            int resultCount = rentals?.Count ?? 0;
+        }
+        <div style="padding-top: 50px">
+            <div class="card mb-4">
+                <form asp-controller="Profile" asp-action="RentalSearch" method="post">
+                    <div class="card-header">
+                        <div style="font-size: larger; font-weight: bolder; font-family: cursive"> Rental history</div>
+                        <div class="input-group rounded">
+                            <input type="search" name="search" class="form-control rounded" placeholder="Type here to search" aria-label="Search" aria-describedby="search-addon" value="@ViewBag.search" />
+                            <button class="input-group-text border-0" id="search-addon">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                        <div style="font: initial; font-style: italic; font-size: smaller">Showing @resultCount result(s).</div>
+                    </div>
+                </form>
+                <div class="card-body p-0">
+
+                    <div class="table-responsive table-billing-history">
+                        <table class="table mb-0">
+                            <thead>
+                                <tr>
+                                    <th class="border-gray-200" scope="col">ID</th>
+                                    <th class="border-gray-200" scope="col">Issue Date</th>
+                                    <th class="border-gray-200" scope="col">Sub Amount</th>
+                                    <th class="border-gray-200" scope="col">Status</th>
+                                    <th class="border-gray-200" scope="col">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var rental in ViewBag.listRentalContract)
+                                {
+                                    <tr>
+                                        <td># @rental.ContractId</td>
+                                        <td>@rental.StartDate</td>
+                                        <td>$ @rental.TotalAmount</td>
+                                        @if (rental.Status == "Waiting for confirm")
+                                        {
+                                            <td><span style="background-color: #af8185; color: #fff" class="badge">Waiting for confirmed</span></td>
+                                        }
+                                        else if (rental.Status == "Renting")
+                                        {
+                                            <td><span style="background-color: #ffc107e6; color: #fff" class="badge">Renting</span></td>
+                                        }
+                                        else if (rental.Status == "Canceled")
+                                        {
+                                            <td><span style="background-color: #6c757d; color: #fff" class="badge">Canceled</span></td>
+                                        }
+                                        else
+                                        {
+                                            <td><span class="badge bg-success">Completed</span></td>
+                                        }
+                                        <td>
+                                            <a href="@Url.Action("ViewRentalDetail", "Profile", new { rental_id = rental.ContractId })" style="border: none; background-color: transparent">
+                                                <i class="fa fa-eye" style="font-size:15px; color: white"></i>
+                                            </a>
+                                            @if (rental.Status == "Waiting for confirm")
+                                            {
+                                                <a href="@Url.Action("RentalCanceled", "Profile", new { rental_id = rental.ContractId })" style="border: none; background-color: transparent; padding-left:10px">
+                                                    <i class="fa fa-trash" style="color:wheat"></i>
+                                                </a>
+                                            }
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            ul.reviews-pagination li.active {
+                background-color: #dc3545c2;
+                color: #fff;
+            }
+
+            ul.reviews-pagination li {
+                list-style-type: none;
+                display: inline-block;
+                margin-right: 10px;
+                border: 2px solid #f700188a;
+                border-radius: 5px;
+                padding: 3px 9px;
+            }
+
+            a {
+                color: #ffffff00;
+            }
+
+            ul.reviews-pagination li a {
+                text-decoration: none;
+                color: white
+            }
+        </style>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+
+    </script>
+</body>
+
+</html>

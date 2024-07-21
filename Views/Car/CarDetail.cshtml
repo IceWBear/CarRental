@@ -1,0 +1,640 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using Project_RentACar.Models;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CarRetal - CarDetail</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/car_style/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="~/car_style/css/animate.css">
+    <link rel="stylesheet" href="~/car_style/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/car_style/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/car_style/css/magnific-popup.css">
+    <link rel="stylesheet" href="~/car_style/css/aos.css">
+    <link rel="stylesheet" href="~/car_style/css/ionicons.min.css">
+    <link rel="stylesheet" href="~/car_style/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="~/car_style/css/jquery.timepicker.css">
+    <link rel="stylesheet" href="~/car_style/css/flaticon.css">
+    <link rel="stylesheet" href="~/car_style/css/icomoon.css">
+    <link rel="stylesheet" href="~/car_style/css/style.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="~/main_style/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="~/main_style/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/main_style/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="~/main_style/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="~/main_style/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/main_style/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/main_style/fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="~/main_style/css/aos.css">
+
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="~/main_style/css/style.css">
+</head>
+<body>
+
+    <header class="site-navbar site-navbar-target" role="banner">
+
+        <div class="container">
+            <div class="row align-items-center position-relative">
+                <div class="col-9">
+                    <div class="site-logo">
+                        <a href="@Url.Action("LoadCar", "Car")">CarRental</a>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>
+                    <nav class="site-navigation ml-auto d-none d-lg-block" role="navigation">
+                        <ul class="site-menu main-menu js-clone-nav ml-auto">
+                            @if (ViewBag.name == null)
+                            {
+                                <li><a href="@Url.Action("Login", "Login")" class="nav-link"><i class="fas fa-sign-in-alt"></i> LOGIN</a></li>
+                                <li><a href="@Url.Action("SignUp", "SignUp")" class="nav-link"><i class="fas fa-user-plus"></i> SIGN UP</a></li>
+                            }
+                            else
+                            {
+                                <li><a href="@Url.Action("Profile", "Profile")" class="nav-link"><i class="fas fa-user"></i> Hello @ViewBag.name</a></li>
+                                <li><a href="@Url.Action("Logout", "Login")" class="nav-link"><i class="fas fa-sign-out-alt"></i> LOGOUT</a></li>
+                            }
+                        </ul>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END nav -->
+
+    <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('/car_style/images/bg_3.jpg');" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
+                <div class="col-md-9 ftco-animate pb-5">
+                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Car details <i class="ion-ios-arrow-forward"></i></span></p>
+                    <h1 class="mb-3 bread">Car Details</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="ftco-section ftco-car-details">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="car-details">
+                        <div class="img rounded" style="background-image: url(@ViewBag.car_detail.Image);"></div>
+                        <div class="text text-center">
+                            <span class="subheading">@ViewBag.manufacturer.ManufacturerName</span>
+                            <h2>@ViewBag.car_detail.Model</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services">
+                        <div class="media-body py-md-4">
+                            <div class="d-flex mb-3 align-items-center">
+                                <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-dashboard"></span></div>
+                                <div class="text">
+                                    <h3 class="heading mb-0 pl-3">
+                                        Year of Manufacturer
+                                        <span>@ViewBag.car_detail.Year</span>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services">
+                        <div class="media-body py-md-4">
+                            <div class="d-flex mb-3 align-items-center">
+                                <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-pistons"></span></div>
+                                <div class="text">
+                                    <h3 class="heading mb-0 pl-3">
+                                        Transmission
+                                        <span>@ViewBag.car_detail.Transmission</span>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services">
+                        <div class="media-body py-md-4">
+                            <div class="d-flex mb-3 align-items-center">
+                                <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-car-seat"></span></div>
+                                <div class="text">
+                                    <h3 class="heading mb-0 pl-3">
+                                        Seats
+                                        <span>@ViewBag.car_detail.Seats Adults</span>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services">
+                        <div class="media-body py-md-4">
+                            <div class="d-flex mb-3 align-items-center">
+                                <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-backpack"></span></div>
+                                <div class="text">
+                                    <h3 class="heading mb-0 pl-3">
+                                        Luggage
+                                        <span>@ViewBag.car_detail.Luggage Bags</span>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services">
+                        <div class="media-body py-md-4">
+                            <div class="d-flex mb-3 align-items-center">
+                                <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-diesel"></span></div>
+                                <div class="text">
+                                    <h3 class="heading mb-0 pl-3">
+                                        Fuel
+                                        <span>@ViewBag.car_detail.Fuel</span>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 pills">
+                    <div class="bd-example bd-example-tabs">
+                        <div class="d-flex justify-content-center">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="pills-manufacturer-tab" data-toggle="pill" href="#pills-manufacturer" role="tab" aria-controls="pills-manufacturer" aria-expanded="true">Description</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="pills-review-tab" data-toggle="pill" href="#pills-review" role="tab" aria-controls="pills-review" aria-expanded="true">Review</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="pills-rental-tab" data-toggle="pill" href="#pills-rental" role="tab" aria-controls="pills-rental" aria-expanded="true">Contact now</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+                        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+                        <script>
+                            document.addEventListener('DOMContentLoaded', function () {
+                                var urlParams = new URLSearchParams(window.location.search);
+                                var tabId = urlParams.get('tab');
+
+                                if (tabId) {
+                                    var tab = document.querySelector('#' + tabId + '-tab');
+                                    var tabContent = document.querySelector('#' + tabId);
+
+                                    if (tab && tabContent) {
+                                        // Activate the selected tab and tab pane
+                                        $(tab).tab('show');
+
+                                        // Scroll down more
+                                        setTimeout(function () {
+                                            window.scrollTo({
+                                                top: 1600, // Change this value to scroll down more or less
+                                                behavior: 'smooth'
+                                            });
+                                        }, 300); // Adjust the timeout to ensure it runs after the tab is shown
+                                    }
+                                }
+                            });
+                        </script>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-manufacturer" role="tabpanel" aria-labelledby="pills-manufacturer-tab">
+                                <p>@ViewBag.car_detail.Description</p>
+
+                            </div>
+
+                            @{
+                                var feedback = ViewBag.feedback as List<Feedback>;
+                                int resultCount = feedback?.Count ?? 0;
+                            }
+                            <div class="tab-pane fade" id="pills-review" role="tabpanel" aria-labelledby="pills-review-tab">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <h3 class="head">@resultCount Review(s)</h3>
+                                        @{
+                                            var feedbacks = ViewBag.feedback as List<Feedback>;
+                                        }
+
+                                        @if (feedbacks != null && feedbacks.Count > 0)
+                                        {
+                                            @foreach (Feedback item in feedbacks)
+                                            {
+                                                <div class="review d-flex">
+                                                    <div class="user-img" style="background-image: url(/images/@item.Customer.Image)"></div>
+                                                    <div class="desc">
+                                                        <h4>
+                                                            <span class="text-left">@item.Customer.FirstName @item.Customer.LastName</span>
+                                                            <span class="text-right">@item.FeedbackDate.ToString("MM/dd/yyyy")</span>
+                                                        </h4>
+                                                        <p class="star">
+                                                            <span>
+                                                                @for (int i = 0; i < 5; i++)
+                                                                {
+                                                                    if (i < item.Rating)
+                                                                    {
+                                                                        <i class="ion-ios-star"></i>
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        <i class="ion-ios-star-outline"></i>
+                                                                    }
+                                                                }
+                                                            </span>
+                                                            @if (item.CustomerId == ViewBag.account?.CustomerId)
+                                                            {
+                                                                <span class="text-right"><a href="@Url.Action("DeleteFeedback","Car", new {feedback_id = item.FeedbackId, car_id = item.CarId})"><i class="fa fa-trash"></i></a></span>
+                                                            }
+                                                        </p>
+                                                        <p>@item.FeedbackContent</p>
+                                                    </div>
+                                                </div>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <p>No feedback available.</p>
+                                        }
+
+                                    </div>
+                                    @if (ViewBag.check == true)
+                                    {
+                                        <div class="col-md-5">
+                                            <div class="rating-wrap">
+                                                <h3 class="head">Give a Review</h3>
+                                                <div class="wrap">
+                                                    <div id="review-form">
+                                                        <form asp-controller="Car" asp-action="AddFeedback" method="post" class="review-form">
+                                                            <input type="hidden" name="car_id" value="@ViewBag.car_detail.CarId" />
+                                                            <div class="input-rating">
+                                                                <span>Your Rating: </span>
+                                                                <div class="stars">
+                                                                    <input id="star5" name="rating" value="5" type="radio" required=""><label for="star5">&#9733;</label>
+                                                                    <input id="star4" name="rating" value="4" type="radio" required=""><label for="star4">&#9733;</label>
+                                                                    <input id="star3" name="rating" value="3" type="radio" required=""><label for="star3">&#9733;</label>
+                                                                    <input id="star2" name="rating" value="2" type="radio" required=""><label for="star2">&#9733;</label>
+                                                                    <input id="star1" name="rating" value="1" type="radio" required=""><label for="star1">&#9733;</label>
+                                                                </div>
+                                                            </div>
+                                                            <textarea style="width:360px; height:100px;border:2px solid gray; font-size: smaller" name="feedback_content" class="input" placeholder="Review here (Max 150 characters)" maxlength="150"></textarea>
+                                                            <div style="display: grid; width:70px"><button class="primary-btn">Submit</button></div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                            <style>
+                                .stars {
+                                    display: inline-flex;
+                                    flex-direction: row-reverse;
+                                    align-items: center;
+                                }
+
+                                    .stars input[type="radio"] {
+                                        display: none;
+                                    }
+
+                                    .stars label {
+                                        font-size: 35px;
+                                        color: #ccc;
+                                        cursor: pointer;
+                                        transition: color 0.2s;
+                                    }
+
+                                    .stars input[type="radio"]:checked ~ label,
+                                    .stars input[type="radio"]:checked ~ label ~ label {
+                                        color: #f5b301;
+                                    }
+
+                                    .stars label:hover,
+                                    .stars label:hover ~ label {
+                                        color: #f5b301;
+                                    }
+
+                            </style>
+
+
+                            <div class="tab-pane fade" id="pills-rental" role="tabpanel" aria-labelledby="pills-rental-tab">
+                                <div class="site-section bg-light" id="contact-section">
+                                    <div class="container">
+                                        <div class="row justify-content-center text-center">
+                                            <div class="col-7 text-center mb-5">
+                                                <h2>Contact Us Or Use This Form To Rent A Car</h2>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-8 mb-5">
+                                                <form asp-controller="Car" asp-action="GetRentalInfo" method="get">
+                                                    <input type="hidden" name="car_id" value="@ViewBag.car_detail?.CarId" />
+                                                    <div class="form-group row">
+                                                        <div class="col-md-6 mb-4 mb-lg-0">
+                                                            <input type="text" class="form-control" placeholder="First name" name="fname" value="@(ViewBag.contract_draft != null ? ViewBag.contract_draft.FirstName : string.Empty)" required>
+                                                        </div>
+
+                                                        <div class="col-md-6">
+                                                            <input type="text" class="form-control" placeholder="Last name" name="lname" value="@(ViewBag.contract_draft != null ? ViewBag.contract_draft.LastName : string.Empty)" required>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group row">
+                                                        <div class="col-md-6 mb-4 mb-lg-0">
+                                                            <input type="email" class="form-control" placeholder="Email address" name="email" value="@(ViewBag.contract_draft != null ? ViewBag.contract_draft.Email : string.Empty)" required>
+                                                        </div>
+
+                                                        <div class="col-md-6">
+                                                            <input type="tel" class="form-control" placeholder="Phone" name="phone" value="@(ViewBag.contract_draft != null ? ViewBag.contract_draft.Phone : string.Empty)" required>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group row">
+                                                        <div class="col-md-6 mb-4 mb-lg-0">
+                                                            Start Date: <input type="date" class="form-control" name="start_date" value="@(ViewBag.contract_draft != null ? ViewBag.contract_draft.StartDate?.ToString("yyyy-MM-dd") : string.Empty)" required>
+                                                        </div>
+
+                                                        <div class="col-md-6 mb-4 mb-lg-0">
+                                                            End Date: <input type="date" class="form-control" name="end_date" value="@(ViewBag.contract_draft != null ? ViewBag.contract_draft.EndDate?.ToString("yyyy-MM-dd") : string.Empty)" required>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group row">
+                                                        <div class="col-md-12">
+                                                            <input type="text" class="form-control" placeholder="Destination" name="destination" value="@(ViewBag.contract_draft != null ? ViewBag.contract_draft.Destination : string.Empty)" required>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group row">
+                                                        <div class="col-md-12">
+                                                            <textarea name="note" class="form-control" placeholder="Write your message." cols="30" rows="3">@(ViewBag.contract_draft != null ? ViewBag.contract_draft.Note : string.Empty)</textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div style="color:red">@ViewBag.message</div>
+
+                                                    <div class="form-group row">
+                                                        @if (ViewBag.car_detail.Status == true)
+                                                        {
+                                                            @if (ViewBag.account == null)
+                                                            {
+                                                                <div class="col-md-6 mr-auto">
+                                                                    <a href="@Url.Action("Login", "Login", new {car_id = ViewBag.car_detail.CarId})" class="btn btn-block btn-primary text-white py-3 px-5">
+                                                                        Sign In to continue.
+                                                                    </a>
+                                                                </div>
+
+                                                            }
+                                                            else
+                                                            {
+                                                                <div class="col-md-6 mr-auto">
+                                                                    <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Continue">
+                                                                </div>
+                                                            }
+                                                        }
+                                                        else
+                                                        {
+                                                            <div class="col-md-6 mr-auto">
+                                                                <input type="submit" disabled class="btn btn-block btn-primary text-white py-3 px-5" value="Available in @ViewBag.end_date">
+                                                            </div>
+                                                        }
+                                                    </div>
+                                                    <div style="color:#00000091; font-style:italic">*Note:<br /> - You have only 2 days from now to start rent our car. <br /> - If the vehicle is not returned by the due date, the system will deduct money with the unit price doubled. <br />- If you still do not return the vehicle when your account runs out of money, we will lock your account and notify the police about your problem.</div>
+                                                </form>
+
+                                            </div>
+                                            <div class="col-lg-4 ml-auto">
+                                                <div class="bg-white p-3 p-md-5">
+                                                    <h3 class="text-black mb-4">Car basic info</h3>
+                                                    <ul class="list-unstyled footer-link">
+                                                        <li class="d-block mb-3">
+                                                            <span class="d-block text-black">Car Model:</span>
+                                                            <span>@ViewBag.manufacturer.ManufacturerName @ViewBag.car_detail.Model </span>
+                                                        </li>
+                                                        <li class="d-block mb-3"><span class="d-block text-black">License Plate:</span><span>@ViewBag.car_detail.LicensePlate</span></li>
+                                                        <li class="d-block mb-3"><span class="d-block text-black">Rental Price:</span><span>$ @ViewBag.car_detail.RentalPrice /day</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section ftco-no-pt">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 heading-section text-center ftco-animate mb-5">
+                    <span class="subheading">Choose Car</span>
+                    <h2 class="mb-2">Related Cars</h2>
+                </div>
+            </div>
+            <div class="row">
+                @foreach (Car car in ViewBag.related_car)
+                {
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="item-1">
+                            <a href="#">
+                                <div class="fixed-frame">
+                                    <img src="@car.Image" alt="Image" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="item-1-contents">
+                                <div class="text-center">
+                                    <h3><a href="#"> @car.Manufacturer?.ManufacturerName  @car.Model</a></h3>
+                                    <div class="rating">
+                                        <span class="icon-star text-warning"></span>
+                                        <span class="icon-star text-warning"></span>
+                                        <span class="icon-star text-warning"></span>
+                                        <span class="icon-star text-warning"></span>
+                                        <span class="icon-star text-warning"></span>
+                                    </div>
+                                    <div class="rent-price"><span>$ @car.RentalPrice/</span>day</div>
+                                </div>
+                                <ul class="specs">
+                                    <li>
+                                        <span>Fuel</span>
+                                        <span class="spec">@car.Fuel</span>
+                                    </li>
+                                    <li>
+                                        <span>Seats</span>
+                                        <span class="spec">@car.Seats</span>
+                                    </li>
+                                    <li>
+                                        <span>Transmission</span>
+                                        <span class="spec">@car.Transmission</span>
+                                    </li>
+                                    <li>
+                                        <span>Year of Manufacturer</span>
+                                        <span class="spec">@car.Year</span>
+                                    </li>
+                                </ul>
+                                <div class="d-flex action">
+
+                                    <a style="background-color:#008000ab !important;border-color:#008000ab !important" href="@Url.Action("ViewDetail", "Car", new { car_id = car.CarId })" class="btn btn-primary"><i class="fas fa-eye"></i> View Detail </a>
+                                    @if (car.Status == true)
+                                    {
+                                        <a style="background-color:#1089ff;border-color:#1089ff" href="@Url.Action("ViewDetail", "Car", new { car_id = car.CarId, tab = "pills-rental" })" class="btn btn-primary"><i class="fas fa-key"></i> Rent Now</a>
+                                    }
+                                    else
+                                    {
+                                        <a href="#" class="btn btn-primary disabled" tabindex="-1" aria-disabled="true">
+                                            <i class="fas fa-key"></i> Rent Now
+                                        </a>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <style>
+                .fixed-frame {
+                    width: 100%; /* Ensure the frame takes full width of its container */
+                    height: 200px; /* Set your desired height */
+                    overflow: hidden;
+                    position: relative;
+                }
+
+                .d-flex.action {
+                    display: flex;
+                    justify-content: space-between; /* Distribute space between items */
+                }
+
+                    .d-flex.action a {
+                        flex: 1; /* Make the buttons take equal width */
+                        margin: 0 5px; /* Add margin to create space around the buttons */
+                    }
+
+                .fixed-frame img {
+                    max-width: 100%; /* Ensure the image width does not exceed the frame width */
+                    height: auto; /* Maintain aspect ratio */
+                    object-fit: cover; /* Ensures the image covers the frame without distortion */
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                .btn-primary.disabled, .btn-primary:disabled {
+                    color: #fff;
+                    background-color: #808080;
+                    border-color: #ccc;
+                }
+            </style>
+        </div>
+    </section>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h2 class="footer-heading mb-4">About Us</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                </div>
+                <div class="col-lg-8 ml-auto">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <h2 class="footer-heading mb-4">Quick Links</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h2 class="footer-heading mb-4">Quick Links</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h2 class="footer-heading mb-4">Quick Links</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h2 class="footer-heading mb-4">Quick Links</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+
+
+    <script src="~/car_style/js/jquery.min.js"></script>
+    <script src="~/car_style/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="~/car_style/js/popper.min.js"></script>
+    <script src="~/car_style/js/bootstrap.min.js"></script>
+    <script src="~/car_style/js/jquery.easing.1.3.js"></script>
+    <script src="~/car_style/js/jquery.waypoints.min.js"></script>
+    <script src="~/car_style/js/jquery.stellar.min.js"></script>
+    <script src="~/car_style/js/owl.carousel.min.js"></script>
+    <script src="~/car_style/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/car_style/js/aos.js"></script>
+    <script src="~/car_style/js/jquery.animateNumber.min.js"></script>
+    <script src="~/car_style/js/bootstrap-datepicker.js"></script>
+    <script src="~/car_style/js/jquery.timepicker.min.js"></script>
+    <script src="~/car_style/js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="~/car_style/js/google-map.js"></script>
+    <script src="~/car_style/js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,2577 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\adb_style\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\adb_style\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\css\\templatemo-style.css",
+      "PackagePath": "staticwebassets\\adb_style\\css\\templatemo-style.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\img\\arrow-down.png",
+      "PackagePath": "staticwebassets\\adb_style\\img\\arrow-down.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\img\\avatar.png",
+      "PackagePath": "staticwebassets\\adb_style\\img\\avatar.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\img\\check-mark.png",
+      "PackagePath": "staticwebassets\\adb_style\\img\\check-mark.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\img\\notification-01.jpg",
+      "PackagePath": "staticwebassets\\adb_style\\img\\notification-01.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\img\\notification-02.jpg",
+      "PackagePath": "staticwebassets\\adb_style\\img\\notification-02.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\img\\notification-03.jpg",
+      "PackagePath": "staticwebassets\\adb_style\\img\\notification-03.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\img\\product-image.jpg",
+      "PackagePath": "staticwebassets\\adb_style\\img\\product-image.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\AUTHORS.txt",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\AUTHORS.txt"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\external\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\external\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\images\\ui-bg_glass_75_d0e5f5_1x400.png",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\images\\ui-bg_glass_75_d0e5f5_1x400.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\images\\ui-bg_glass_85_dfeffc_1x400.png",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\images\\ui-bg_glass_85_dfeffc_1x400.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\images\\ui-bg_glass_95_fef1ec_1x400.png",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\images\\ui-bg_glass_95_fef1ec_1x400.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\images\\ui-bg_gloss-wave_55_5c9ccc_500x100.png",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\images\\ui-bg_gloss-wave_55_5c9ccc_500x100.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\images\\ui-bg_inset-hard_100_f5f8f9_1x100.png",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\images\\ui-bg_inset-hard_100_f5f8f9_1x100.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\images\\ui-bg_inset-hard_100_fcfdfd_1x100.png",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\images\\ui-bg_inset-hard_100_fcfdfd_1x100.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\images\\ui-icons_217bc0_256x240.png",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\images\\ui-icons_217bc0_256x240.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\images\\ui-icons_2e83ff_256x240.png",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\images\\ui-icons_2e83ff_256x240.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\images\\ui-icons_469bdd_256x240.png",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\images\\ui-icons_469bdd_256x240.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\images\\ui-icons_6da8d5_256x240.png",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\images\\ui-icons_6da8d5_256x240.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\images\\ui-icons_cd0a0a_256x240.png",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\images\\ui-icons_cd0a0a_256x240.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\images\\ui-icons_d8e7f3_256x240.png",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\images\\ui-icons_d8e7f3_256x240.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\images\\ui-icons_f9bd01_256x240.png",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\images\\ui-icons_f9bd01_256x240.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\index.html",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\index.html"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\jquery-ui.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\jquery-ui.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\jquery-ui.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\jquery-ui.structure.css",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\jquery-ui.structure.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\jquery-ui.structure.min.css",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\jquery-ui.structure.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\jquery-ui.theme.css",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\jquery-ui.theme.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\jquery-ui.theme.min.css",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\jquery-ui.theme.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\jquery-ui-datepicker\\package.json",
+      "PackagePath": "staticwebassets\\adb_style\\jquery-ui-datepicker\\package.json"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\adb_style\\js\\Chart.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\adb_style\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\adb_style\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\adb_style\\js\\moment.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\js\\tooplate-scripts.js",
+      "PackagePath": "staticwebassets\\adb_style\\js\\tooplate-scripts.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\adb_style\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\adb_style\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\adb_style\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\adb_style\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\adb_style\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\adb_style\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\adb_style\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\adb_style\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\adb_style\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\adb_style\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\adb_style\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\adb_style\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\adb_style\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\adb_style\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\adb_style\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\adb_style\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\.DS_Store",
+      "PackagePath": "staticwebassets\\car_style\\css\\.DS_Store"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\car_style\\css\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\animate.css",
+      "PackagePath": "staticwebassets\\car_style\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\aos.css",
+      "PackagePath": "staticwebassets\\car_style\\css\\aos.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\bootstrap-datepicker.css",
+      "PackagePath": "staticwebassets\\car_style\\css\\bootstrap-datepicker.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\car_style\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\bootstrap\\.DS_Store",
+      "PackagePath": "staticwebassets\\car_style\\css\\bootstrap\\.DS_Store"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\bootstrap\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\car_style\\css\\bootstrap\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\bootstrap\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\car_style\\css\\bootstrap\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\css\\.DS_Store",
+      "PackagePath": "staticwebassets\\car_style\\css\\css\\.DS_Store"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\car_style\\css\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\css\\mixins\\_text-hide.css",
+      "PackagePath": "staticwebassets\\car_style\\css\\css\\mixins\\_text-hide.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\car_style\\css\\flaticon.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\icomoon.css",
+      "PackagePath": "staticwebassets\\car_style\\css\\icomoon.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\car_style\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\jquery.timepicker.css",
+      "PackagePath": "staticwebassets\\car_style\\css\\jquery.timepicker.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\car_style\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\car_style\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\car_style\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\car_style\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\css\\style.css",
+      "PackagePath": "staticwebassets\\car_style\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\flaticon\\.DS_Store",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\flaticon\\.DS_Store"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\flaticon\\backup.txt",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\flaticon\\backup.txt"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\flaticon\\font\\.DS_Store",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\flaticon\\font\\.DS_Store"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\flaticon\\font\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\flaticon\\font\\Flaticon.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\flaticon\\font\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\flaticon\\font\\Flaticon.svg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\flaticon\\font\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\flaticon\\font\\Flaticon.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\flaticon\\font\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\flaticon\\font\\Flaticon.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\flaticon\\font\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\flaticon\\font\\Flaticon.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\flaticon\\font\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\flaticon\\font\\_flaticon.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\flaticon\\font\\flaticon.css",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\flaticon\\font\\flaticon.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\flaticon\\font\\flaticon.html",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\flaticon\\font\\flaticon.html"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\flaticon\\license\\license.pdf",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\flaticon\\license\\license.pdf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\icomoon\\icomoon.eot",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\icomoon\\icomoon.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\icomoon\\icomoon.svg",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\icomoon\\icomoon.svg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\icomoon\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\icomoon\\icomoon.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\icomoon\\icomoon.woff",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\icomoon\\icomoon.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\ionicons\\css\\_ionicons.scss",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\ionicons\\css\\_ionicons.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\ionicons\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\ionicons\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\ionicons\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\ionicons\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\ionicons\\fonts\\ionicons.eot",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\ionicons\\fonts\\ionicons.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\ionicons\\fonts\\ionicons.svg",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\ionicons\\fonts\\ionicons.svg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\ionicons\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\ionicons\\fonts\\ionicons.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\ionicons\\fonts\\ionicons.woff",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\ionicons\\fonts\\ionicons.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\ionicons\\fonts\\ionicons.woff2",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\ionicons\\fonts\\ionicons.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\open-iconic\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\open-iconic\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\open-iconic\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\open-iconic\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\open-iconic\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\open-iconic\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\open-iconic\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\open-iconic\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\fonts\\open-iconic\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\car_style\\fonts\\open-iconic\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\car_style\\images\\.DS_Store"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\about.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\about.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\bg_1.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\bg_1.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\bg_2.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\bg_2.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\bg_3.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\bg_3.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\car-1.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\car-1.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\car-10.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\car-10.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\car-11.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\car-11.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\car-12.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\car-12.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\car-2.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\car-2.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\car-3.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\car-3.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\car-4.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\car-4.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\car-5.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\car-5.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\car-6.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\car-6.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\car-7.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\car-7.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\car-8.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\car-8.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\car-9.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\car-9.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\image_1.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\image_1.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\image_2.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\image_2.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\image_3.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\image_3.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\image_4.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\image_4.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\image_5.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\image_5.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\image_6.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\image_6.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\loc.png",
+      "PackagePath": "staticwebassets\\car_style\\images\\loc.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\person_1.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\person_1.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\person_2.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\person_2.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\person_3.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\person_3.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\images\\person_4.jpg",
+      "PackagePath": "staticwebassets\\car_style\\images\\person_4.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\car_style\\js\\.DS_Store"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\js\\aos.js",
+      "PackagePath": "staticwebassets\\car_style\\js\\aos.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\js\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\car_style\\js\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\car_style\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\js\\google-map.js",
+      "PackagePath": "staticwebassets\\car_style\\js\\google-map.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\js\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\car_style\\js\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\js\\jquery-migrate-3.0.1.min.js",
+      "PackagePath": "staticwebassets\\car_style\\js\\jquery-migrate-3.0.1.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\js\\jquery.animateNumber.min.js",
+      "PackagePath": "staticwebassets\\car_style\\js\\jquery.animateNumber.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\js\\jquery.easing.1.3.js",
+      "PackagePath": "staticwebassets\\car_style\\js\\jquery.easing.1.3.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\car_style\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\car_style\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\js\\jquery.stellar.min.js",
+      "PackagePath": "staticwebassets\\car_style\\js\\jquery.stellar.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\js\\jquery.timepicker.min.js",
+      "PackagePath": "staticwebassets\\car_style\\js\\jquery.timepicker.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\js\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\car_style\\js\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\js\\main.js",
+      "PackagePath": "staticwebassets\\car_style\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\car_style\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\car_style\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\js\\range.js",
+      "PackagePath": "staticwebassets\\car_style\\js\\range.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\js\\scrollax.min.js",
+      "PackagePath": "staticwebassets\\car_style\\js\\scrollax.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\.DS_Store",
+      "PackagePath": "staticwebassets\\car_style\\scss\\.DS_Store"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\.DS_Store",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\.DS_Store"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_code.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_code.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_custom-forms.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_input-group.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_jumbotron.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_media.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_media.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_print.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_print.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_float.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_size.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\utilities\\_align.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\utilities\\_background.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\utilities\\_display.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\utilities\\_float.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\utilities\\_position.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\utilities\\_text.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\car_style\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\car_style\\scss\\style.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\echart\\echarts.min.js",
+      "PackagePath": "staticwebassets\\echart\\echarts.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\css\\css-material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\enteremail_style\\css\\css-material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\css\\css-style.css",
+      "PackagePath": "staticwebassets\\enteremail_style\\css\\css-style.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\fonts-Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\fonts-Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\fonts-Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\fonts-Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\fonts-Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\fonts-Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-300.eot",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-300.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-300.ttf",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-300.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-300.woff",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-300.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-300.woff2",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-300.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-300italic.eot",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-300italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-300italic.ttf",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-300italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-300italic.woff",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-300italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-300italic.woff2",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-300italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-500.eot",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-500.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-500.ttf",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-500.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-500.woff",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-500.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-500.woff2",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-500.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-500italic.eot",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-500italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-500italic.ttf",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-500italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-500italic.woff",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-500italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-500italic.woff2",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-500italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-600.eot",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-600.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-600.ttf",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-600.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-600.woff",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-600.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-600.woff2",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-600.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-700.eot",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-700.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-700.ttf",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-700.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-700.woff",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-700.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-700.woff2",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-700.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-700italic.eot",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-700italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-700italic.ttf",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-700italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-700italic.woff",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-700italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-700italic.woff2",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-700italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-800.eot",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-800.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-800.ttf",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-800.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-800.woff",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-800.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-800.woff2",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-800.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-800italic.eot",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-800italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-800italic.ttf",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-800italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-800italic.woff",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-800italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-800italic.woff2",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-800italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-900.eot",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-900.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-900.ttf",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-900.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-900.woff",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-900.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-900.woff2",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-900.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-italic.eot",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-italic.ttf",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-italic.woff",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-italic.woff2",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-regular.eot",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-regular.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-regular.ttf",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-regular.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-regular.woff",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-regular.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\fonts\\poppins-poppins-v5-latin-regular.woff2",
+      "PackagePath": "staticwebassets\\enteremail_style\\fonts\\poppins-poppins-v5-latin-regular.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\images\\car_login.jpg",
+      "PackagePath": "staticwebassets\\enteremail_style\\images\\car_login.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\js\\4370-js-main.js",
+      "PackagePath": "staticwebassets\\enteremail_style\\js\\4370-js-main.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enteremail_style\\js\\jquery-jquery.min.js",
+      "PackagePath": "staticwebassets\\enteremail_style\\js\\jquery-jquery.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\css\\css-material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\css\\css-material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\css\\css-style.css",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\css\\css-style.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\fonts-Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\fonts-Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\fonts-Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\fonts-Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\fonts-Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\fonts-Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-300.eot",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-300.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-300.ttf",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-300.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-300.woff",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-300.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-300.woff2",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-300.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-300italic.eot",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-300italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-300italic.ttf",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-300italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-300italic.woff",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-300italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-300italic.woff2",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-300italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-500.eot",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-500.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-500.ttf",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-500.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-500.woff",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-500.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-500.woff2",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-500.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-500italic.eot",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-500italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-500italic.ttf",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-500italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-500italic.woff",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-500italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-500italic.woff2",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-500italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-600.eot",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-600.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-600.ttf",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-600.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-600.woff",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-600.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-600.woff2",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-600.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-700.eot",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-700.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-700.ttf",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-700.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-700.woff",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-700.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-700.woff2",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-700.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-700italic.eot",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-700italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-700italic.ttf",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-700italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-700italic.woff",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-700italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-700italic.woff2",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-700italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-800.eot",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-800.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-800.ttf",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-800.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-800.woff",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-800.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-800.woff2",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-800.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-800italic.eot",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-800italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-800italic.ttf",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-800italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-800italic.woff",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-800italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-800italic.woff2",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-800italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-900.eot",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-900.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-900.ttf",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-900.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-900.woff",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-900.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-900.woff2",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-900.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-italic.eot",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-italic.ttf",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-italic.woff",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-italic.woff2",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-regular.eot",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-regular.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-regular.ttf",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-regular.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-regular.woff",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-regular.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-regular.woff2",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\fonts\\poppins-poppins-v5-latin-regular.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\images\\car_login.jpg",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\images\\car_login.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\js\\4370-js-main.js",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\js\\4370-js-main.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\enternewpassword_style\\js\\jquery-jquery.min.js",
+      "PackagePath": "staticwebassets\\enternewpassword_style\\js\\jquery-jquery.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\3series.jpg",
+      "PackagePath": "staticwebassets\\images\\3series.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\5series.jpg",
+      "PackagePath": "staticwebassets\\images\\5series.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\ACIV-JanBundle-Wallpaper-1920x1080-ProvidenciaVista-FINAL-2.jpg",
+      "PackagePath": "staticwebassets\\images\\ACIV-JanBundle-Wallpaper-1920x1080-ProvidenciaVista-FINAL-2.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\Four-Horsemen-of-the-Apocalypse_5K.jpg",
+      "PackagePath": "staticwebassets\\images\\Four-Horsemen-of-the-Apocalypse_5K.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\ROG-Prism_Wallpaper_4k.jpg",
+      "PackagePath": "staticwebassets\\images\\ROG-Prism_Wallpaper_4k.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\a4_2022.jpg",
+      "PackagePath": "staticwebassets\\images\\a4_2022.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\accord.jpg",
+      "PackagePath": "staticwebassets\\images\\accord.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\accord_hybrid.jpg",
+      "PackagePath": "staticwebassets\\images\\accord_hybrid.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\camry.jpg",
+      "PackagePath": "staticwebassets\\images\\camry.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\camry_hybrid.jpg",
+      "PackagePath": "staticwebassets\\images\\camry_hybrid.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\civic.jpg",
+      "PackagePath": "staticwebassets\\images\\civic.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\civic_si.jpg",
+      "PackagePath": "staticwebassets\\images\\civic_si.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\civictyper.jpg",
+      "PackagePath": "staticwebassets\\images\\civictyper.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\corolla_2022.jpg",
+      "PackagePath": "staticwebassets\\images\\corolla_2022.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\cruze.jpg",
+      "PackagePath": "staticwebassets\\images\\cruze.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\escape.jpg",
+      "PackagePath": "staticwebassets\\images\\escape.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\escape_hybrid_2023.jpg",
+      "PackagePath": "staticwebassets\\images\\escape_hybrid_2023.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\explorer.jpg",
+      "PackagePath": "staticwebassets\\images\\explorer.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\f150.jpg",
+      "PackagePath": "staticwebassets\\images\\f150.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\f250.jpg",
+      "PackagePath": "staticwebassets\\images\\f250.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\f250_2024.jpg",
+      "PackagePath": "staticwebassets\\images\\f250_2024.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\fusion.jpg",
+      "PackagePath": "staticwebassets\\images\\fusion.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\fusion_2020.jpg",
+      "PackagePath": "staticwebassets\\images\\fusion_2020.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\highlander.jpg",
+      "PackagePath": "staticwebassets\\images\\highlander.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\hilux.jpg",
+      "PackagePath": "staticwebassets\\images\\hilux.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\malibu.jpg",
+      "PackagePath": "staticwebassets\\images\\malibu.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\palisade.jpg",
+      "PackagePath": "staticwebassets\\images\\palisade.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\paypal-headquarters-logo-9tl7whvtzxx2pwsv.jpg",
+      "PackagePath": "staticwebassets\\images\\paypal-headquarters-logo-9tl7whvtzxx2pwsv.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\profiles\\3b0f0b1b-51e1-4203-a8c3-9a6330d46cbd_erik-mclean-ZRns2R5azu0-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\3b0f0b1b-51e1-4203-a8c3-9a6330d46cbd_erik-mclean-ZRns2R5azu0-unsplash.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\profiles\\3f59ef78-358b-4025-8c87-1be27322711c_3b0f0b1b-51e1-4203-a8c3-9a6330d46cbd_erik-mclean-ZRns2R5azu0-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\3f59ef78-358b-4025-8c87-1be27322711c_3b0f0b1b-51e1-4203-a8c3-9a6330d46cbd_erik-mclean-ZRns2R5azu0-unsplash.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\profiles\\9e7686d8-3a04-42bb-8b98-5bc46146b7a3_3b0f0b1b-51e1-4203-a8c3-9a6330d46cbd_erik-mclean-ZRns2R5azu0-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\9e7686d8-3a04-42bb-8b98-5bc46146b7a3_3b0f0b1b-51e1-4203-a8c3-9a6330d46cbd_erik-mclean-ZRns2R5azu0-unsplash.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\santafe.jpg",
+      "PackagePath": "staticwebassets\\images\\santafe.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\silverado.jpg",
+      "PackagePath": "staticwebassets\\images\\silverado.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\sorento_2023.jpg",
+      "PackagePath": "staticwebassets\\images\\sorento_2023.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\sportage.jpg",
+      "PackagePath": "staticwebassets\\images\\sportage.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\telluride.jpg",
+      "PackagePath": "staticwebassets\\images\\telluride.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\tucson.jpg",
+      "PackagePath": "staticwebassets\\images\\tucson.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\wallpaperflare.com_wallpaper.jpg",
+      "PackagePath": "staticwebassets\\images\\wallpaperflare.com_wallpaper.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\x3.jpg",
+      "PackagePath": "staticwebassets\\images\\x3.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\x5.jpg",
+      "PackagePath": "staticwebassets\\images\\x5.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\images\\x6.jpg",
+      "PackagePath": "staticwebassets\\images\\x6.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\dashboard.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\js\\feedback.js",
+      "PackagePath": "staticwebassets\\js\\feedback.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\js\\hihi.js",
+      "PackagePath": "staticwebassets\\js\\hihi.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\js\\rental.js",
+      "PackagePath": "staticwebassets\\js\\rental.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\css\\css-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\login_style\\css\\css-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\css\\css-elegant-fonts.css",
+      "PackagePath": "staticwebassets\\login_style\\css\\css-elegant-fonts.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\css\\css-font-awesome.min.css",
+      "PackagePath": "staticwebassets\\login_style\\css\\css-font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\css\\css-style.css",
+      "PackagePath": "staticwebassets\\login_style\\css\\css-style.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\css\\css-swiper.min.css",
+      "PackagePath": "staticwebassets\\login_style\\css\\css-swiper.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\css\\css-themify-icons.css",
+      "PackagePath": "staticwebassets\\login_style\\css\\css-themify-icons.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\css\\thecharity-style.css",
+      "PackagePath": "staticwebassets\\login_style\\css\\thecharity-style.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\fonts\\fonts-ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\login_style\\fonts\\fonts-ElegantIcons.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\fonts\\fonts-ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\login_style\\fonts\\fonts-ElegantIcons.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\fonts\\fonts-ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\login_style\\fonts\\fonts-ElegantIcons.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\fonts\\fonts-fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\login_style\\fonts\\fonts-fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\fonts\\fonts-fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\login_style\\fonts\\fonts-fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\fonts\\fonts-fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\login_style\\fonts\\fonts-fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\fonts\\fonts-fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\login_style\\fonts\\fonts-fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\fonts\\fonts-fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\login_style\\fonts\\fonts-fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\fonts\\fonts-themify.eot",
+      "PackagePath": "staticwebassets\\login_style\\fonts\\fonts-themify.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\fonts\\fonts-themify.svg",
+      "PackagePath": "staticwebassets\\login_style\\fonts\\fonts-themify.svg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\fonts\\fonts-themify.ttf",
+      "PackagePath": "staticwebassets\\login_style\\fonts\\fonts-themify.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\fonts\\fonts-themify.woff",
+      "PackagePath": "staticwebassets\\login_style\\fonts\\fonts-themify.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\images\\car_login.jpg",
+      "PackagePath": "staticwebassets\\login_style\\images\\car_login.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\js\\211-js-main.js",
+      "PackagePath": "staticwebassets\\login_style\\js\\211-js-main.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\js\\2459-js-bootstrap.min.js",
+      "PackagePath": "staticwebassets\\login_style\\js\\2459-js-bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\js\\3208-js-swiper.min.js",
+      "PackagePath": "staticwebassets\\login_style\\js\\3208-js-swiper.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\js\\4082-js-popper.js",
+      "PackagePath": "staticwebassets\\login_style\\js\\4082-js-popper.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\js\\4941-js-jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\login_style\\js\\4941-js-jquery.countdown.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\js\\6055-js-jquery.js",
+      "PackagePath": "staticwebassets\\login_style\\js\\6055-js-jquery.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\js\\6087-js-circle-progress.min.js",
+      "PackagePath": "staticwebassets\\login_style\\js\\6087-js-circle-progress.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\js\\6419-js-custom.js",
+      "PackagePath": "staticwebassets\\login_style\\js\\6419-js-custom.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\js\\7367-js-jquery.barfiller.js",
+      "PackagePath": "staticwebassets\\login_style\\js\\7367-js-jquery.barfiller.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\js\\8479-js-jquery.min.js",
+      "PackagePath": "staticwebassets\\login_style\\js\\8479-js-jquery.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\js\\9015-js-jquery.collapsible.min.js",
+      "PackagePath": "staticwebassets\\login_style\\js\\9015-js-jquery.collapsible.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\js\\9736-js-jquery.countTo.min.js",
+      "PackagePath": "staticwebassets\\login_style\\js\\9736-js-jquery.countTo.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\login_style\\js\\cloudflare-static-email-decode.min.js",
+      "PackagePath": "staticwebassets\\login_style\\js\\cloudflare-static-email-decode.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\css\\aos.css",
+      "PackagePath": "staticwebassets\\main_style\\css\\aos.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\css\\bootstrap-datepicker.css",
+      "PackagePath": "staticwebassets\\main_style\\css\\bootstrap-datepicker.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\main_style\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\main_style\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\css\\bootstrap\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\main_style\\css\\bootstrap\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\css\\bootstrap\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\main_style\\css\\bootstrap\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\css\\bootstrap\\bootstrap.css",
+      "PackagePath": "staticwebassets\\main_style\\css\\bootstrap\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\main_style\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\css\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\main_style\\css\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\main_style\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\css\\mediaelementplayer.css",
+      "PackagePath": "staticwebassets\\main_style\\css\\mediaelementplayer.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\main_style\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\main_style\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\css\\style.css",
+      "PackagePath": "staticwebassets\\main_style\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\flaticon\\backup.txt",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\flaticon\\backup.txt"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\flaticon\\font\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\flaticon\\font\\Flaticon.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\flaticon\\font\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\flaticon\\font\\Flaticon.svg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\flaticon\\font\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\flaticon\\font\\Flaticon.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\flaticon\\font\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\flaticon\\font\\Flaticon.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\flaticon\\font\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\flaticon\\font\\Flaticon.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\flaticon\\font\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\flaticon\\font\\_flaticon.scss"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\flaticon\\font\\flaticon.css",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\flaticon\\font\\flaticon.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\flaticon\\font\\flaticon.html",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\flaticon\\font\\flaticon.html"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\flaticon\\license\\license.pdf",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\flaticon\\license\\license.pdf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\icomoon\\Read Me.txt",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\icomoon\\Read Me.txt"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\icomoon\\demo-files\\demo.css",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\icomoon\\demo-files\\demo.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\icomoon\\demo-files\\demo.js",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\icomoon\\demo-files\\demo.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\icomoon\\demo.html",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\icomoon\\demo.html"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\icomoon\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\icomoon\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\icomoon\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\icomoon\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\icomoon\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\icomoon\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\icomoon\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\icomoon\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\icomoon\\selection.json",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\icomoon\\selection.json"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\fonts\\icomoon\\style.css",
+      "PackagePath": "staticwebassets\\main_style\\fonts\\icomoon\\style.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\hero_1.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\hero_1.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\hero_2.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\hero_2.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\hero_3.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\hero_3.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\img_1.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\img_1.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\img_2.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\img_2.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\img_3.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\img_3.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\img_4.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\img_4.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\img_5.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\img_5.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\img_6.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\img_6.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\person_1.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\person_1.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\person_2.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\person_2.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\person_3.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\person_3.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\person_4.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\person_4.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\person_5.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\person_5.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\post_1.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\post_1.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\post_2.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\post_2.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\post_3.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\post_3.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\post_4.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\post_4.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\post_5.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\post_5.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\images\\post_6.jpg",
+      "PackagePath": "staticwebassets\\main_style\\images\\post_6.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\aos.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\aos.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\jquery-migrate-3.0.1.min.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\jquery-migrate-3.0.1.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\jquery-ui.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\jquery.animateNumber.min.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\jquery.animateNumber.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\jquery.easing.1.3.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\jquery.easing.1.3.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\jquery.fancybox.min.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\jquery.fancybox.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\jquery.stellar.min.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\jquery.stellar.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\jquery.sticky.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\main.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\mediaelement-and-player.min.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\mediaelement-and-player.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\slick.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\main_style\\js\\typed.js",
+      "PackagePath": "staticwebassets\\main_style\\js\\typed.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\otp_style\\car_login.jpg",
+      "PackagePath": "staticwebassets\\otp_style\\car_login.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\otp_style\\script.js",
+      "PackagePath": "staticwebassets\\otp_style\\script.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\otp_style\\style.css",
+      "PackagePath": "staticwebassets\\otp_style\\style.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\profile_style\\favicons\\img-bootdey_135x140.png",
+      "PackagePath": "staticwebassets\\profile_style\\favicons\\img-bootdey_135x140.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\profile_style\\favicons\\img-bootdey_76x76.png",
+      "PackagePath": "staticwebassets\\profile_style\\favicons\\img-bootdey_76x76.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\profile_style\\favicons\\img-bootdey_favicon.ico",
+      "PackagePath": "staticwebassets\\profile_style\\favicons\\img-bootdey_favicon.ico"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\profile_style\\images\\avatar-avatar1.png",
+      "PackagePath": "staticwebassets\\profile_style\\images\\avatar-avatar1.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\profile_style\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\profile_style\\images\\background.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\profile_style\\js\\cache-js-cache-1635427806-97135bbb13d92c11d6b2a92f6a36685a.js",
+      "PackagePath": "staticwebassets\\profile_style\\js\\cache-js-cache-1635427806-97135bbb13d92c11d6b2a92f6a36685a.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\profile_style\\js\\carbon.js",
+      "PackagePath": "staticwebassets\\profile_style\\js\\carbon.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\profile_style\\js\\js-bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\profile_style\\js\\js-bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\css\\css-material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\security_style\\css\\css-material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\css\\css-style.css",
+      "PackagePath": "staticwebassets\\security_style\\css\\css-style.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\fonts-Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\fonts-Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\fonts-Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\fonts-Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\fonts-Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\fonts-Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-300.eot",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-300.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-300.ttf",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-300.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-300.woff",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-300.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-300.woff2",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-300.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-300italic.eot",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-300italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-300italic.ttf",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-300italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-300italic.woff",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-300italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-300italic.woff2",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-300italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-500.eot",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-500.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-500.ttf",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-500.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-500.woff",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-500.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-500.woff2",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-500.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-500italic.eot",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-500italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-500italic.ttf",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-500italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-500italic.woff",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-500italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-500italic.woff2",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-500italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-600.eot",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-600.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-600.ttf",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-600.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-600.woff",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-600.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-600.woff2",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-600.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-700.eot",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-700.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-700.ttf",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-700.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-700.woff",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-700.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-700.woff2",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-700.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-700italic.eot",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-700italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-700italic.ttf",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-700italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-700italic.woff",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-700italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-700italic.woff2",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-700italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-800.eot",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-800.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-800.ttf",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-800.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-800.woff",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-800.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-800.woff2",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-800.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-800italic.eot",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-800italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-800italic.ttf",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-800italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-800italic.woff",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-800italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-800italic.woff2",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-800italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-900.eot",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-900.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-900.ttf",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-900.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-900.woff",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-900.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-900.woff2",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-900.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-italic.eot",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-italic.ttf",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-italic.woff",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-italic.woff2",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-regular.eot",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-regular.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-regular.ttf",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-regular.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-regular.woff",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-regular.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\fonts\\poppins-poppins-v5-latin-regular.woff2",
+      "PackagePath": "staticwebassets\\security_style\\fonts\\poppins-poppins-v5-latin-regular.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\images\\images-body-bg.jpg",
+      "PackagePath": "staticwebassets\\security_style\\images\\images-body-bg.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\images\\images-container-bg.png",
+      "PackagePath": "staticwebassets\\security_style\\images\\images-container-bg.png"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\js\\4370-js-main.js",
+      "PackagePath": "staticwebassets\\security_style\\js\\4370-js-main.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\security_style\\js\\jquery-jquery.min.js",
+      "PackagePath": "staticwebassets\\security_style\\js\\jquery-jquery.min.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\css\\css-material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\signup_style\\css\\css-material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\css\\css-style.css",
+      "PackagePath": "staticwebassets\\signup_style\\css\\css-style.css"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\fonts-Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\fonts-Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\fonts-Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\fonts-Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\fonts-Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\fonts-Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-300.eot",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-300.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-300.ttf",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-300.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-300.woff",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-300.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-300.woff2",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-300.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-300italic.eot",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-300italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-300italic.ttf",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-300italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-300italic.woff",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-300italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-300italic.woff2",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-300italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-500.eot",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-500.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-500.ttf",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-500.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-500.woff",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-500.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-500.woff2",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-500.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-500italic.eot",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-500italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-500italic.ttf",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-500italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-500italic.woff",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-500italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-500italic.woff2",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-500italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-600.eot",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-600.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-600.ttf",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-600.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-600.woff",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-600.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-600.woff2",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-600.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-700.eot",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-700.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-700.ttf",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-700.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-700.woff",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-700.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-700.woff2",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-700.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-700italic.eot",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-700italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-700italic.ttf",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-700italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-700italic.woff",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-700italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-700italic.woff2",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-700italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-800.eot",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-800.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-800.ttf",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-800.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-800.woff",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-800.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-800.woff2",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-800.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-800italic.eot",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-800italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-800italic.ttf",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-800italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-800italic.woff",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-800italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-800italic.woff2",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-800italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-900.eot",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-900.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-900.ttf",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-900.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-900.woff",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-900.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-900.woff2",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-900.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-italic.eot",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-italic.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-italic.ttf",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-italic.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-italic.woff",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-italic.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-italic.woff2",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-italic.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-regular.eot",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-regular.eot"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-regular.ttf",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-regular.ttf"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-regular.woff",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-regular.woff"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\fonts\\poppins-poppins-v5-latin-regular.woff2",
+      "PackagePath": "staticwebassets\\signup_style\\fonts\\poppins-poppins-v5-latin-regular.woff2"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\images\\car2.jpg",
+      "PackagePath": "staticwebassets\\signup_style\\images\\car2.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\images\\car_login.jpg",
+      "PackagePath": "staticwebassets\\signup_style\\images\\car_login.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\js\\4370-js-main.js",
+      "PackagePath": "staticwebassets\\signup_style\\js\\4370-js-main.js"
+    },
+    {
+      "Id": "D:\\Semester7\\PRN221\\Project_RentACar (1)\\Project_RentACar (1)\\Project_RentACar\\Project_RentACar\\wwwroot\\signup_style\\js\\jquery-jquery.min.js",
+      "PackagePath": "staticwebassets\\signup_style\\js\\jquery-jquery.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Project_RentACar.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Project_RentACar.props",
+      "PackagePath": "build\\Project_RentACar.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Project_RentACar.props",
+      "PackagePath": "buildMultiTargeting\\Project_RentACar.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Project_RentACar.props",
+      "PackagePath": "buildTransitive\\Project_RentACar.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

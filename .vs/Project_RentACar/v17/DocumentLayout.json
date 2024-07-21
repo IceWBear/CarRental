@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Semester7\\PRN221\\Project_RentACar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{825235B2-EF50-4215-AC69-879584B8166A}|Project_RentACar.csproj|d:\\semester7\\prn221\\project_rentacar\\dao\\cardao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{825235B2-EF50-4215-AC69-879584B8166A}|Project_RentACar.csproj|solutionrelative:dao\\cardao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{825235B2-EF50-4215-AC69-879584B8166A}|Project_RentACar.csproj|D:\\Semester7\\PRN221\\Project_RentACar\\views\\car\\showcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{825235B2-EF50-4215-AC69-879584B8166A}|Project_RentACar.csproj|solutionrelative:views\\car\\showcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{825235B2-EF50-4215-AC69-879584B8166A}|Project_RentACar.csproj|D:\\Semester7\\PRN221\\Project_RentACar\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{825235B2-EF50-4215-AC69-879584B8166A}|Project_RentACar.csproj|solutionrelative:controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarDAO.cs",
+              "DocumentMoniker": "D:\\Semester7\\PRN221\\Project_RentACar\\DAO\\CarDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\CarDAO.cs",
+              "ToolTip": "D:\\Semester7\\PRN221\\Project_RentACar\\DAO\\CarDAO.cs",
+              "RelativeToolTip": "DAO\\CarDAO.cs",
+              "ViewState": "AQIAAG0AAABwzczMzAwlwHcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T01:19:20.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "D:\\Semester7\\PRN221\\Project_RentACar\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarController.cs",
+              "ToolTip": "D:\\Semester7\\PRN221\\Project_RentACar\\Controllers\\CarController.cs",
+              "RelativeToolTip": "Controllers\\CarController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAiwDcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T04:08:51.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShowCar.cshtml",
+              "DocumentMoniker": "D:\\Semester7\\PRN221\\Project_RentACar\\Views\\Car\\ShowCar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Car\\ShowCar.cshtml",
+              "ToolTip": "D:\\Semester7\\PRN221\\Project_RentACar\\Views\\Car\\ShowCar.cshtml",
+              "RelativeToolTip": "Views\\Car\\ShowCar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIcBAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T03:22:58.557Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
+<!-- Coding by CodingLab || www.codinglabweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP Verification Form</title>
+    <link rel="stylesheet" href="~/otp_style/style.css" />
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <script src="~/otp_style/script.js" defer></script>
+</head>
+<body style="background-image: url('/otp_style/car_login.jpg');background-size: cover;background-repeat: no-repeat;background-position: center;background-attachment: fixed">
+    <div class="container">
+        <header>
+            <i class="bx bxs-check-shield"></i>
+        </header>
+        <div style="color:white">OTP code is sent to your email and available in 30 seconds. To try again, click <a style="color:burlywood" href="@Url.Action("ValidateEmail", "ForgotPassword", new { email = @ViewBag.email })" class="term-service">here!</a></div>
+        <h4>Your OTP Code here !</h4>
+        <form asp-controller="ForgotPassword" asp-action="ValidateOTP" method="post" class="signin-form">
+            <div class="input-field">
+                <input type="number" name="digit1" />
+                <input type="number" name="digit2" disabled />
+                <input type="number" name="digit3" disabled />
+                <input type="number" name="digit4" disabled />
+                <input type="number" name="digit5" disabled />
+                <input type="number" name="digit6" disabled />
+            </div>
+            <div style="color:wheat; padding-top:10px; font-style:italic; font-size:small">@ViewBag.error</div>
+            @if (@ViewBag.error != "Your OTP is terminated! Please try again.")
+            {
+                <div style="padding-top: 10px; padding-bottom: 10px " class="g-recaptcha" data-sitekey="6LeiQF4oAAAAAKmYr1qGsmRKV_V6axMTxKI9m10Z"></div>
+                <button>Verify OTP</button>
+            }
+        </form>
+    </div>
+    <style>
+        .container {
+            background: rgb(0 0 0 / 65%);
+            padding: 30px 65px;
+            border-radius: 12px;
+            row-gap: 20px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+
+            .container h4 {
+                font-size: 1.25rem;
+                color: #fff;
+                font-weight: 500;
+            }
+    </style>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Checkpoint purchase - CarRental </title>
+    <link rel="stylesheet" href="~/signup_style/css/css-material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="~/signup_style/css/css-style.css">
+    <meta name="robots" content="noindex, follow">
+</head>
+<body style="background-image: url('/signup_style/images/car_login.jpg');background-size: cover;background-repeat: no-repeat;background-position: center;background-attachment: fixed">
+    <div class="main">
+        <div class="container" style="padding-top:20px; width:1070px">
+            <div class="signup-content" style="padding-top:35px; padding-bottom:10px; padding-left:40px; padding-right: 25px; border-radius:15px">
+                <form asp-controller="Purchase" asp-action="CheckpointPurchase" id="signup-form" class="signup-form">
+                    <h2> Verify password </h2>
+                    <div style="padding-bottom: 30px; font-size: smaller; color: wheat"> Sorry. We wanted to make sure that it was you ! </div>
+
+                    <div style="padding-bottom: 15px">
+                        <input type="password" class="form-input" name="password" id="password1" placeholder="Password" required="">
+                        <span toggle="#password1" class="zmdi zmdi-eye field-icon toggle-password"></span>
+                    </div>
+                    <div style="color:wheat; padding-top:10px; font-style:italic; font-size:small">@ViewBag.error</div>
+                    <div style="padding-bottom: 10px " class="g-recaptcha" data-sitekey="6LeiQF4oAAAAAKmYr1qGsmRKV_V6axMTxKI9m10Z"></div>
+                    <div class="form-group" style="padding-top: 20px;padding-left: 150px">
+                        <input type="submit" name="submit" id="submit" class="form-submit submit" value="COUNTINUE">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <style>
+        .container {
+            margin-top: 120px;
+            margin-bottom: 70px;
+            width: 1123px;
+            padding-top: 135px;
+            padding-bottom: 115px;
+            background-image: none;
+            background-repeat: no-repeat;
+            background-size: cover;
+            -moz-background-size: cover;
+            -webkit-background-size: cover;
+            -o-background-size: cover;
+            -ms-background-size: cover;
+            background-position: center center;
+            overflow: hidden;
+        }
+
+        .signup-content {
+            width: 562px;
+            background: rgb(0 0 0 / 54%);
+        }
+    </style>
+    <script src="~/signup_style/js/jquery-jquery.min.js"></script>
+    <script src="~/signup_style/js/4370-js-main.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854" integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg==" data-cf-beacon='{"rayId":"809a63f86e6ec5c5","version":"2023.8.0","b":1,"token":"cd0b4b3a733644fc843ef0b185f98241","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>

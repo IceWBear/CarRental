@@ -1,0 +1,289 @@
+﻿@model Project_RentACar.Models.Car
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using Project_RentACar.Models
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Car Page - Admin</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
+    <!-- https://fonts.google.com/specimen/Roboto -->
+    <link rel="stylesheet" href="~/adb_style/css/fontawesome.min.css" />
+    <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" href="~/adb_style/css/bootstrap.min.css" />
+    <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="~/adb_style/css/templatemo-style.css">
+    <!--
+    Product Admin CSS Template
+    https://templatemo.com/tm-524-product-admin
+    -->
+</head>
+<style>
+    .custom-select {
+        width: 500px;
+        height: 50px;
+        background-color: #e0f7fa; /* Màu xanh dương siêu nhạt */
+        border: 1px solid #008cba; /* Màu viền xanh dương đậm */
+        border-radius: 5px; /* Bo tròn các góc */
+        padding: 10px; /* Thêm khoảng cách bên trong */
+        font-size: 16px; /* Kích thước chữ */
+        color: #333; /* Màu chữ */
+    }
+
+        .custom-select:focus {
+            border-color: #007b9e; /* Màu viền khi focus */
+            outline: none; /* Bỏ viền mặc định khi focus */
+        }
+</style>
+
+<body id="reportsPage">
+    <nav class="navbar navbar-expand-xl">
+        <div class="container h-100">
+            <a class="navbar-brand">
+                <h1 class="tm-site-title mb-0">Car Admin</h1>
+            </a>
+            <button class="navbar-toggler ml-auto mr-0"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <i class="fas fa-bars tm-nav-icon"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto h-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Dashboard", "Adminstrator")">
+                            <i class="fas fa-tachometer-alt"></i> Dashboard
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-toggle="dropdown"
+                           aria-haspopup="true"
+                           aria-expanded="false">
+                            <i class="far fa-file-alt"></i>
+                            <span> Reports <i class="fas fa-angle-down"></i> </span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="@Url.Action("FeedBackReport", "Adminstrator")">Feedback Report</a>
+                            <a class="dropdown-item" href="@Url.Action("RentalReport", "Adminstrator")">Rental Report</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("ManageCar", "Adminstrator")">
+                            <i class="fas fa-shopping-cart"></i> List Cars
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("ManageAccount", "Adminstrator")">
+                            <i class="far fa-user"></i> Accounts
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-toggle="dropdown"
+                           aria-haspopup="true"
+                           aria-expanded="false">
+                            <i class="fas fa-cog"></i>
+                            <span> Settings <i class="fas fa-angle-down"></i> </span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Profile</a>
+                            <a class="dropdown-item" href="#">Billing</a>
+                            <a class="dropdown-item" href="#">Customize</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link d-block" href="@Url.Action("Logout", "Login")">
+                            Admin, <b>Logout</b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row tm-content-row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 tm-block-col">
+
+                <form asp-controller="Adminstrator" asp-action="AddCar" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-group form-row">
+                        <label asp-for="LicensePlate" class="col-sm-2 col-form-label control-label" style="color:black;"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="LicensePlate" class="form-control" style="background-color:#00408530;" />
+                            <span asp-validation-for="LicensePlate" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group form-row">
+                        <label asp-for="Model" class="col-sm-2 col-form-label control-label" style="color:black;"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Model" class="form-control" style="background-color:#00408530;" />
+                            <span asp-validation-for="Model" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group form-row">
+                        <label asp-for="Year" class="col-sm-2 col-form-label control-label" style="color:black;"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Year" class="form-control" style="background-color:#00408530;" />
+                            <span asp-validation-for="Year" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group form-row">
+                        <label asp-for="CarTypeId" class="col-sm-2 col-form-label control-label" style="color:black;"></label>
+                        <div class="col-sm-10">
+                            <select class="custom-select" asp-for="CarTypeId">
+                                @foreach (CarType ct in ViewBag.hihi)
+                                {
+                                    <option value="@ct.CarTypeId">@ct.TypeName</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group form-row">
+                        <label asp-for="Branch" class="col-sm-2 col-form-label control-label" style="color:black;"></label>
+                        <div class="col-sm-10">
+                            <select class="custom-select" asp-for="BranchId">
+                                @foreach (Branch b in ViewBag.hehe)
+                                {
+                                    <option value="@b.BranchId">@b.BranchName</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group form-row">
+                        <label asp-for="Manufacturer" class="col-sm-2 col-form-label control-label" style="color:black;"></label>
+                        <div class="col-sm-10">
+                            <select class="custom-select" asp-for="ManufacturerId">
+                                @foreach (CarManufacturer cm in ViewBag.huhu)
+                                {
+                                    <option value="@cm.ManufacturerId">@cm.ManufacturerName - Country: @cm.Country</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group form-row">
+                        <label asp-for="RentalPrice" class="col-sm-2 col-form-label control-label" style="color:black;"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="RentalPrice" class="form-control" style="background-color:#00408530;" />
+                            <span asp-validation-for="RentalPrice" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group form-row">
+                        <label asp-for="Transmission" class="col-sm-2 col-form-label control-label" style="color:black;"></label>
+                        <div class="col-sm-10">
+                            <select class="custom-select" asp-for="Transmission">
+                                <option value="Automatic">Automatic</option>
+                                <option value="Manual">Manual</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group form-row">
+                        <label asp-for="Seats" class="col-sm-2 col-form-label control-label" style="color:black;"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Seats" class="form-control" style="background-color:#00408530;" />
+                            <span asp-validation-for="Seats" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group form-row">
+                        <label asp-for="Fuel" class="col-sm-2 col-form-label control-label" style="color:black;"></label>
+                        <div class="col-sm-10">
+                            <select class="custom-select" asp-for="Fuel">
+                                <option value="Gasoline">Gasoline</option>
+                                <option value="Oil">Oil</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group form-row">
+                        <label asp-for="Description" class="col-sm-2 col-form-label control-label" style="color:black;"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Description" class="form-control" style="background-color:#00408530; width:inherit; height:200px" />
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group form-row">
+                        <label asp-for="Luggage" class="col-sm-2 col-form-label control-label" style="color:black;"></label>
+                        <div class="col-sm-10">
+                            <input asp-for="Luggage" class="form-control" style="background-color:#00408530;" />
+                            <span asp-validation-for="Luggage" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group form-row">
+                        <label asp-for="Status" class="col-sm-2 col-form-label control-label" style="color:black;"></label>
+                        <div class="col-sm-10">
+                            <select class="custom-select" asp-for="Status">
+                                <option value="1">On active</option>
+                                <option value="0">No active</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group form-row">
+                        <div class="col-sm-10 offset-sm-2">
+                            <input type="submit" value="Create" class="btn btn-primary" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <style>
+        .btn-primary .dropdown-item {
+            color: #fff;
+            background-color: #17a2b8;
+            border: 2px solid #fff;
+            font-size: 90%;
+            font-weight: 600;
+            width: max-content;
+            display: flex;
+            margin-left: auto
+        }
+
+        .navbar-nav .nav-link.active .dropdown-item {
+            background-color: #17a2b8;
+            color: #fff;
+        }
+
+        .form-control {
+            padding: 19px 18px;
+            border-radius: 0;
+            height: 50px;
+            width: 150px;
+            border-radius: 10px;
+            color: black
+        }
+    </style>
+
+    <script src="~/adb_style/js/jquery-3.3.1.min.js"></script>
+    <!-- https://jquery.com/download/ -->
+    <script src="~/adb_style/js/bootstrap.min.js"></script>
+    <!-- https://getbootstrap.com/ -->
+    <script>
+        $(function () {
+            $(".tm-product-name").on("click", function () {
+                window.location.href = "edit-product.html";
+            });
+        });
+    </script>
+</body>
+</html>

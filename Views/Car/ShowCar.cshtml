@@ -1,0 +1,589 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using Project_RentACar.Models
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Car Rental</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="~/main_style/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="~/main_style/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/main_style/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="~/main_style/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="~/main_style/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/main_style/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/main_style/fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="~/main_style/css/aos.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="~/main_style/css/style.css">
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+    <div class="site-wrap" id="home-section">
+
+        <div class="site-mobile-menu site-navbar-target">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close mt-3">
+                    <span class="icon-close2 js-menu-toggle"></span>
+                </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+        </div>
+
+
+
+        <header class="site-navbar site-navbar-target" role="banner">
+
+            <div class="container">
+                <div class="row align-items-center position-relative">
+                    <div class="col-9">
+                        <div class="site-logo">
+                            <a href="@Url.Action("LoadCar", "Car")">CarRental</a>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>
+                        <nav class="site-navigation ml-auto d-none d-lg-block" role="navigation">
+                            <ul class="site-menu main-menu js-clone-nav ml-auto">
+                                @if (ViewBag.name == null)
+                                {
+                                    <li><a href="@Url.Action("Login", "Login")" class="nav-link"><i class="fas fa-sign-in-alt"></i> LOGIN</a></li>
+                                    <li><a href="@Url.Action("SignUp", "SignUp")" class="nav-link"><i class="fas fa-user-plus"></i> SIGN UP</a></li>
+                                }
+                                else
+                                {
+                                    <li><a href="@Url.Action("Profile", "Profile")" class="nav-link"><i class="fas fa-user"></i> Hello @ViewBag.name</a></li>
+                                    <li><a href="@Url.Action("Logout", "Login")" class="nav-link"><i class="fas fa-sign-out-alt"></i> LOGOUT</a></li>
+                                }
+                            </ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="ftco-blocks-cover-1">
+            <div class="ftco-cover-1 overlay" style="background-image: url('/images/explorer.jpg')">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div style="padding-bottom:100px" class="col-lg-5">
+                            <div class="feature-car-rent-box-1">
+                                <h3 style="color:wheat">FORD EXPLORER S7</h3>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <span>Doors</span>
+                                        <span class="spec">4</span>
+                                    </li>
+                                    <li>
+                                        <span>Seats</span>
+                                        <span class="spec">6</span>
+                                    </li>
+                                    <li>
+                                        <span>Lugage</span>
+                                        <span class="spec">2 Suitcase/2 Bags</span>
+                                    </li>
+                                    <li>
+                                        <span>Transmission</span>
+                                        <span class="spec">Automatic</span>
+                                    </li>
+                                    <li>
+                                        <span>Minium age</span>
+                                        <span class="spec">Automatic</span>
+                                    </li>
+                                </ul>
+                                <div class="d-flex align-items-center bg-light p-3">
+                                    <a href="https://localhost:7210/Car/ViewDetail?car_id=5&tab=pills-rental" class="ml-auto btn btn-primary">Rent Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .feature-car-rent-box-1 {
+                position: relative;
+                padding: 30px;
+                background: #0000007a;
+                color: aliceblue;
+            }
+
+            .bg-light {
+                background-color: #f6f5f500 !important;
+            }
+        </style>
+        @{
+            var cars = ViewBag.getAllCar as List<Car>;
+            int resultCount = cars?.Count ?? 0;
+        }
+        <div class="site-section pt-0 pb-0 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <form class="trip-form" asp-action="LoadCar" asp-controller="Car" method="get">
+                            <input type="hidden" name="param" value="yes" />
+                            <div class="row align-items-center mb-4">
+                                <div class="col-md-6">
+                                    <h3 class="m-0">Begin your trip here</h3>
+                                </div>
+                                <div class="col-md-6 text-md-right">
+                                    <span>Showing @resultCount car(s)</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-3">
+                                    <label for="cf-1">Manufacturer</label>
+                                    <select id="cf-1" name="Manufacturer" class="form-control">
+                                        <option value="">Select Manufacturer</option>
+                                        @foreach (var manufacturer in ViewBag.getAllManufacturer)
+                                        {
+                                            if (manufacturer.ManufacturerName == ViewBag.manufacturer_sentback)
+                                            {
+                                                <option value="@manufacturer.ManufacturerName" selected>@manufacturer.ManufacturerName</option>
+                                            }
+                                            else
+                                            {
+                                                <option value="@manufacturer.ManufacturerName">@manufacturer.ManufacturerName</option>
+                                            }
+                                        }
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="cf-2">Car Name</label>
+                                    <input type="text" id="cf-2" name="CarName" placeholder="Car Name" class="form-control" value="@ViewBag.carName_sentback">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="cf-3">Min Rental Price</label>
+                                    <input type="number" id="cf-3" name="MinRentalPrice" placeholder="Min Rental Price" class="form-control" value="@ViewBag.minRentalPrice_sentback">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="cf-4">Max Rental Price</label>
+                                    <input type="number" id="cf-4" name="MaxRentalPrice" placeholder="Max Rental Price" class="form-control" value="@ViewBag.maxRentalPrice_sentback">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-3">
+                                    <label for="cf-5">Seats</label>
+                                    <input type="number" id="cf-5" name="Seats" placeholder="Seats" class="form-control" value="@ViewBag.seats_sentback">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="cf-6">Transmission</label>
+                                    <select id="cf-6" name="Transmission" class="form-control">
+                                        <option value="">Select Transmission</option>
+                                        @if (ViewBag.transmission_sentback == "Auto")
+                                        {
+                                            <option value="Auto" selected>Auto</option>
+                                            <option value="Manual">Manual</option>
+                                        }
+                                        else if (ViewBag.transmission_sentback == "Manual")
+                                        {
+                                            <option value="Auto">Auto</option>
+                                            <option value="Manual" selected>Manual</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="Auto">Auto</option>
+                                            <option value="Manual">Manual</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="cf-8">Fuel</label>
+                                    <select id="cf-8" name="Fuel" class="form-control">
+                                        <option value="">Select Fuel</option>
+                                        @if (ViewBag.fuel_sentback == "Oil")
+                                        {
+                                            <option value="Oil" selected>Oil</option>
+                                            <option value="Petro">Petro</option>
+                                        }
+                                        else if (ViewBag.fuel_sentback == "Petro")
+                                        {
+                                            <option value="Oil">Oil</option>
+                                            <option value="Petro" selected>Petro</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="Oil">Oil</option>
+                                            <option value="Petro">Petro</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="cf-8">Is Available</label>
+                                    <select id="cf-8" name="is_available" class="form-control">
+                                        <option value="">Select choice </option>
+                                        @if (ViewBag.isAvailable_sentback == "true")
+                                        {
+                                            <option value="true" selected>Yes</option>
+                                            <option value="false">No</option>
+                                        }
+                                        else if (ViewBag.isAvailable_sentback == "false")
+                                        {
+                                            <option value="true">Yes</option>
+                                            <option value="false" selected>No</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="true">Yes</option>
+                                            <option value="false">No</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-1">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                                <div style="padding-left:20px" class="col-lg-1">
+                                    <a href="@Url.Action("LoadCar","Car", new {param = "yes"})" id="reset-btn" class="btn btn-secondary">Reset</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form asp-action="LoadCar" asp-controller="Car" method="get" id="sortForm">
+            <input type="hidden" name="param" value="yes" />
+            <input type="hidden" name="Manufacturer" value="@ViewBag.manufacturer_sentback" />
+            <input type="hidden" name="CarName" value="@ViewBag.carName_sentback" />
+            <input type="hidden" name="MinRentalPrice" value="@ViewBag.minRentalPrice_sentback" />
+            <input type="hidden" name="MaxRentalPrice" value="@ViewBag.maxRentalPrice_sentback" />
+            <input type="hidden" name="Transmission" value="@ViewBag.transmission_sentback" />
+            <input type="hidden" name="Seats" value="@ViewBag.seats_sentback" />
+            <input type="hidden" name="Fuel" value="@ViewBag.fuel_sentback" />
+            <input type="hidden" name="is_available" value="@ViewBag.isAvailable_sentback" />
+            <div style="background-color: white; padding-top: 30px; padding-right: 250px; padding-bottom: 10px;">
+                <div style="display: flex; justify-content: flex-end; align-items: baseline;">
+                    <label for="cf-10" style="margin-right: 10px; font-size: small;">Sort By: </label>
+                    <select id="cf-10" name="sortBy" class="form-control form-control-sm" style="width: 130px; height: 30px; font-size: small;" onchange="submitForm()">
+                        @if (ViewBag.sortBy_sentback == "CarModel")
+                        {
+                            <option value="CarModel" selected>Car Model</option>
+                            <option value="Price">Price</option>
+                        }
+                        else if (ViewBag.sortBy_sentback == "Price")
+                        {
+                            <option value="CarModel">Car Model</option>
+                            <option value="Price" selected>Price</option>
+                        }
+                        else
+                        {
+                            <option value="CarModel" selected>Car Model</option>
+                            <option value="Price">Price</option>
+                        }
+                    </select>
+
+                    <label for="cf-11" style="margin-left: 10px; margin-right: 10px; font-size: small;">Order By: </label>
+                    <select id="cf-11" name="orderBy" class="form-control form-control-sm" style="width: 130px; height: 30px; font-size: small;" onchange="submitForm()">
+                        @if (ViewBag.orderBy_sentback == "Ascending")
+                        {
+                            <option value="Ascending" selected>Ascending</option>
+                            <option value="Descending">Descending</option>
+                        }
+                        else if (ViewBag.orderBy_sentback == "Descending")
+                        {
+                            <option value="Ascending">Ascending</option>
+                            <option value="Descending" selected>Descending</option>
+                        }
+                        else
+                        {
+                            <option value="Ascending" selected>Ascending</option>
+                            <option value="Descending">Descending</option>
+                        }
+                    </select>
+                </div>
+            </div>
+        </form>
+        <script>
+            function submitForm() {
+                document.getElementById('sortForm').submit();
+            }
+        </script>
+
+        <style>
+            .site-section {
+                padding: 0;
+            }
+        </style>
+
+        <script>
+            setTimeout(function () {
+                var paramValue = '@ViewBag.param';
+
+                if (paramValue === 'yes') {
+                    window.scrollTo({
+                        top: 500,
+                        behavior: 'smooth'
+                    });
+                }
+            }, 300);
+        </script>
+
+        <div class="site-section bg-light">
+            <div class="container">
+                <div id="icebear" class="row">
+                    @foreach (Car car in ViewBag.getAllCar)
+                    {
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="item-1">
+                                <a href="#">
+                                    <div class="fixed-frame">
+                                        <img src="@car.Image" alt="Image" class="img-fluid">
+                                    </div>
+                                </a>
+                                <div class="item-1-contents">
+                                    <div class="text-center">
+                                        <h3><a href="#"> @car.Manufacturer.ManufacturerName  @car.Model</a></h3>
+                                        <div class="rating">
+                                            <span class="icon-star text-warning"></span>
+                                            <span class="icon-star text-warning"></span>
+                                            <span class="icon-star text-warning"></span>
+                                            <span class="icon-star text-warning"></span>
+                                            <span class="icon-star text-warning"></span>
+                                        </div>
+                                        <div class="rent-price"><span>$ @car.RentalPrice/</span>day</div>
+                                    </div>
+                                    <ul class="specs">
+                                        <li>
+                                            <span>Fuel</span>
+                                            <span class="spec">@car.Fuel</span>
+                                        </li>
+                                        <li>
+                                            <span>Seats</span>
+                                            <span class="spec">@car.Seats</span>
+                                        </li>
+                                        <li>
+                                            <span>Transmission</span>
+                                            <span class="spec">@car.Transmission</span>
+                                        </li>
+                                        <li>
+                                            <span>Year of Manufacturer</span>
+                                            <span class="spec">@car.Year</span>
+                                        </li>
+                                        <li>
+                                            <span>Status</span>
+                                            @if (car.Status == false)
+                                            {
+                                                <span class="spec">Not Available</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="spec">Available</span>
+                                            }
+
+                                        </li>
+                                    </ul>
+                                    <div class="d-flex action">
+                                        <a style="background-color:#008000ab;border-color:#008000ab" href="@Url.Action("ViewDetail", "Car", new { car_id = car.CarId })" class="btn btn-primary"><i class="fas fa-eye"></i> View Detail </a>
+                                        @if (car.Status == true)
+                                        {
+                                            <a href="@Url.Action("ViewDetail", "Car", new { car_id = car.CarId, tab = "pills-rental" })" class="btn btn-primary"><i class="fas fa-key"></i> Rent Now</a>
+                                        }
+                                        else
+                                        {
+                                            <a href="#" class="btn btn-primary disabled" tabindex="-1" aria-disabled="true">
+                                                <i class="fas fa-key"></i> Rent Now
+                                            </a>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <!--  <div class="col-12">
+                      <span class="p-3">1</span>
+                      <a href="#" class="p-3">2</a>
+                      <a href="#" class="p-3">3</a>
+                      <a href="#" class="p-3">4</a>
+                  </div>
+                  -->
+            </div>
+        </div>
+
+        <style>
+            .fixed-frame {
+                width: 100%; /* Ensure the frame takes full width of its container */
+                height: 200px; /* Set your desired height */
+                overflow: hidden;
+                position: relative;
+            }
+
+            .d-flex.action {
+                display: flex;
+                justify-content: space-between; /* Distribute space between items */
+            }
+
+                .d-flex.action a {
+                    flex: 1; /* Make the buttons take equal width */
+                    margin: 0 5px; /* Add margin to create space around the buttons */
+                }
+
+            .fixed-frame img {
+                max-width: 100%; /* Ensure the image width does not exceed the frame width */
+                height: auto; /* Maintain aspect ratio */
+                object-fit: cover; /* Ensures the image covers the frame without distortion */
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            .btn-primary.disabled, .btn-primary:disabled {
+                color: #fff;
+                background-color: #808080;
+                border-color: #ccc;
+            }
+
+            .btn-secondary {
+                background-color: gray;
+                border-color: gray;
+                color: white;
+            }
+
+                .btn-secondary:hover {
+                    background-color: darkgray;
+                    border-color: darkgray;
+                }
+
+        </style>
+
+
+        <div class="container site-section mb-5">
+            <div class="row justify-content-center text-center">
+                <div class="col-7 text-center mb-5">
+                    <h2>How it works</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
+                </div>
+            </div>
+            <div class="how-it-works d-flex">
+                <div class="step">
+                    <span class="number"><span>01</span></span>
+                    <span class="caption">Time &amp; Place</span>
+                </div>
+                <div class="step">
+                    <span class="number"><span>02</span></span>
+                    <span class="caption">Car</span>
+                </div>
+                <div class="step">
+                    <span class="number"><span>03</span></span>
+                    <span class="caption">Details</span>
+                </div>
+                <div class="step">
+                    <span class="number"><span>04</span></span>
+                    <span class="caption">Checkout</span>
+                </div>
+                <div class="step">
+                    <span class="number"><span>05</span></span>
+                    <span class="caption">Done</span>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h2 class="footer-heading mb-4">About Us</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                    </div>
+                    <div class="col-lg-8 ml-auto">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <h2 class="footer-heading mb-4">Quick Links</h2>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Testimonials</a></li>
+                                    <li><a href="#">Terms of Service</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <h2 class="footer-heading mb-4">Quick Links</h2>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Testimonials</a></li>
+                                    <li><a href="#">Terms of Service</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <h2 class="footer-heading mb-4">Quick Links</h2>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Testimonials</a></li>
+                                    <li><a href="#">Terms of Service</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <h2 class="footer-heading mb-4">Quick Links</h2>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Testimonials</a></li>
+                                    <li><a href="#">Terms of Service</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5 mt-5 text-center">
+                    <div class="col-md-12">
+                        <div class="border-top pt-5">
+                            <p>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/hihi.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
+

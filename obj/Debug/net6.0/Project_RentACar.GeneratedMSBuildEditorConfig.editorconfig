@@ -1,0 +1,125 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Project_RentACar
+build_property.RootNamespace = Project_RentACar
+build_property.ProjectDir = D:\Semester7\PRN221\Project_RentACar (1)\Project_RentACar (1)\Project_RentACar\Project_RentACar\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Semester7\PRN221\Project_RentACar (1)\Project_RentACar (1)\Project_RentACar\Project_RentACar
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Adminstrator/AddCar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zdHJhdG9yXEFkZENhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Adminstrator/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zdHJhdG9yXERhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Adminstrator/EditCar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zdHJhdG9yXEVkaXRDYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Adminstrator/FeedBackReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zdHJhdG9yXEZlZWRCYWNrUmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Adminstrator/ManageAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zdHJhdG9yXE1hbmFnZUFjY291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Adminstrator/ManageCar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zdHJhdG9yXE1hbmFnZUNhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Adminstrator/RentalReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zdHJhdG9yXFJlbnRhbFJlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Car/CarDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyXENhckRldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Car/ShowCar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyXFNob3dDYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/ForgotPassword/EnterEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9yZ290UGFzc3dvcmRcRW50ZXJFbWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/ForgotPassword/EnterNewPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9yZ290UGFzc3dvcmRcRW50ZXJOZXdQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/ForgotPassword/EnterOTP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9yZ290UGFzc3dvcmRcRW50ZXJPVFAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Login/LoginForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5Gb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Profile/CheckpointPurchase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxDaGVja3BvaW50UHVyY2hhc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Profile/Finance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxGaW5hbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Profile/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Profile/RedirectPayPal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxSZWRpcmVjdFBheVBhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Profile/Rental.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxSZW50YWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Profile/Security.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxTZWN1cml0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Profile/ViewRentalDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxWaWV3UmVudGFsRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Purchase/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VcQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Purchase/CheckoutRedirectPaypal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VcQ2hlY2tvdXRSZWRpcmVjdFBheXBhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Purchase/CheckpointPurchase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VcQ2hlY2twb2ludFB1cmNoYXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Purchase/Invoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VcSW52b2ljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/SignUp/EnterOTP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwXEVudGVyT1RQLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/SignUp/SignUpForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwXFNpZ25VcEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester7/PRN221/Project_RentACar (1)/Project_RentACar (1)/Project_RentACar/Project_RentACar/Views/Test/Test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxUZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

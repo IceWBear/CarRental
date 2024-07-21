@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'themify';
+	src:url('../fonts/fonts-themify.eot');
+	src:url('../fonts/fonts-themify.eot') format('embedded-opentype'),
+		url('../fonts/fonts-themify.woff') format('woff'),
+		url('../fonts/fonts-themify.ttf') format('truetype'),
+		url('../fonts/fonts-themify.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+ [class*=" ti-"] {
+	font-family: 'themify';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

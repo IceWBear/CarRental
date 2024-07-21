@@ -1,0 +1,289 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+
+    <title>Invoice - CarRental</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            margin-top: 20px;
+            color: #484b51;
+            background-image: url('/signup_style/images/car_login.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .text-secondary-d1 {
+            color: #728299 !important;
+        }
+
+        .page-header {
+            margin: 0 0 1rem;
+            padding-bottom: 1rem;
+            padding-top: .5rem;
+            border-bottom: 1px dotted #1b1e21;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        .page-title {
+            padding: 0;
+            margin: 0;
+            font-size: 1.75rem;
+            font-weight: 300;
+        }
+
+        .btn-info {
+            color: #fff;
+            background-color: #856404 !important;
+            border-color: #856404 !important;
+        }
+
+        .brc-default-l1 {
+            border-color: #dce9f0 !important;
+        }
+
+        .ml-n1,
+        .mx-n1 {
+            margin-left: -.25rem !important;
+        }
+
+        .mr-n1,
+        .mx-n1 {
+            margin-right: -.25rem !important;
+        }
+
+        .mb-4,
+        .my-4 {
+            margin-bottom: 1.5rem !important;
+        }
+
+        hr {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border: 0;
+            border-top: 1px solid rgba(0, 0, 0, .1);
+        }
+
+        .text-grey-m2 {
+            color: #888a8d !important;
+        }
+
+        .text-success-m2 {
+            color: #86bd68 !important;
+        }
+
+        .font-bolder,
+        .text-600 {
+            font-weight: 600 !important;
+        }
+
+        .text-110 {
+            font-size: 110% !important;
+        }
+
+        .text-blue {
+            color: #478fcc !important;
+        }
+
+        .pb-25,
+        .py-25 {
+            padding-bottom: .75rem !important;
+        }
+
+        .pt-25,
+        .py-25 {
+            padding-top: .75rem !important;
+        }
+
+        .bgc-default-tp1 {
+            background-color: #856404 !important
+        }
+
+        .bgc-default-l4,
+        .bgc-h-default-l4:hover {
+            background-color: #f3f8fa !important;
+        }
+
+        .page-header .page-tools {
+            -ms-flex-item-align: end;
+            align-self: flex-end;
+        }
+
+        .btn-light {
+            color: #757984;
+            background-color: #f5f6f9;
+            border-color: #dddfe4;
+        }
+
+        .w-2 {
+            width: 1rem;
+        }
+
+        .text-120 {
+            font-size: 120% !important;
+        }
+
+        .text-primary-m1 {
+            color: #4087d4 !important;
+        }
+
+        .text-danger-m1 {
+            color: #dd4949 !important;
+        }
+
+        .text-blue-m2 {
+            color: #68a3d5 !important;
+        }
+
+        .text-150 {
+            font-size: 150% !important;
+        }
+
+        .text-60 {
+            font-size: 60% !important;
+        }
+
+        .text-grey-m1 {
+            color: #7b7d81 !important;
+        }
+
+        .align-bottom {
+            vertical-align: bottom !important;
+        }
+
+        .text-grey-m2 {
+            color: black !important;
+        }
+
+    </style>
+</head>
+
+<body>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <div class="page-content container">
+        <div class="page-header text-blue-d2">
+            <h1 style="color:#856404 !important" class="page-title text-secondary-d1">
+                Rental Detail
+                <small class="page-info">
+                    <i class="fa fa-angle-double-right text-80"></i>
+                    ID: @ViewBag.contract.ContractId
+                </small>
+            </h1>
+            <div class="page-tools">
+                <div class="action-buttons">
+                    <a class="btn bg-white btn-light mx-1px text-95" href="#" data-title="Print">
+                        <i class="mr-1 fa fa-print text-primary-m1 text-120 w-2"></i>
+                        Print
+                    </a>
+                    <a class="btn bg-white btn-light mx-1px text-95" href="#" data-title="PDF">
+                        <i class="mr-1 fa fa-file-pdf-o text-danger-m1 text-120 w-2"></i>
+                        Export
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container px-0">
+            <div class="row mt-4">
+                <div class="col-12 col-lg-12">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div>
+                                <span class="text-sm text-grey-m2 align-middle">To:</span>
+                                <span class="text-600 text-110 text-blue align-middle">@ViewBag.contract.FirstName @ViewBag.contract.LastName</span>
+                            </div>
+                            <div class="text-grey-m2">
+                                <div class="my-1">
+                                   <i class="fa fa-home"></i> @ViewBag.contract.Destination
+                                </div>
+                                <div class="my-1">
+                                    <i class="fa fa-phone fa-flip-horizontal text-secondary"></i> <b class="text-600">@ViewBag.contract.Phone</b>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-95 col-sm-6 align-self-start d-sm-flex justify-content-end">
+                            <hr class="d-sm-none" />
+                            <div class="text-grey-m2">
+                                <div style="color:white" class="mt-1 mb-2 text-secondary-m1 text-600 text-125">
+                                    Rental Detail
+                                </div>
+                                <div style="color:white" class="my-2">
+                                    <i class="fa fa-circle text-blue-m2 text-xs mr-1"></i> <span class="text-600 text-90">ID:</span> # @ViewBag.contract.ContractId
+                                </div>
+                                <div style="color:white" class="my-2">
+                                    <i class="fa fa-circle text-blue-m2 text-xs mr-1"></i> <span class="text-600 text-90">Issue Date:</span> @ViewBag.transaction.IssueDate
+                                </div>
+                                <div style="color:white" class="my-2">
+                                    <i class="fa fa-circle text-blue-m2 text-xs mr-1"></i> <span class="text-600 text-90">Status:</span> <span class="badge badge-warning badge-pill px-25">@ViewBag.contract.Status</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="mt-4">
+                        <div class="row text-600 text-white bgc-default-tp1 py-25">
+                            <div class="d-none d-sm-block col-1">#</div>
+                            <div class="col-9 col-sm-5">CarModel</div>
+                            <div class="d-none d-sm-block col-4 col-sm-2">Number of day(s)</div>
+                            <div class="d-none d-sm-block col-sm-2">Rental Price</div>
+                            <div class="col-2">Total</div>
+                        </div>
+                        <div class="text-95 text-secondary-d3">
+                            <div style="color:white" class="row mb-2 mb-sm-0 py-25">
+                                <div class="d-none d-sm-block col-1">1</div>
+                                <div class="col-9 col-sm-5">@ViewBag.car_manufacturer.ManufacturerName @ViewBag.car.Model</div>
+                                <div class="d-none d-sm-block col-2">@ViewBag.NumberOfDays</div>
+                                <div class="d-none d-sm-block col-2 text-95">$ @ViewBag.car.RentalPrice</div>
+                                <div class="col-2 text-secondary-d2">$ @ViewBag.contract.TotalAmount</div>
+                            </div>
+                        </div>
+                        <div class="row border-b-2 brc-default-l2"></div>
+
+
+                        <div class="row mt-3">
+                            <div style="color:white" class="col-12 col-sm-7 text-grey-d2 text-95 mt-2 mt-lg-0">
+                                Extra note such as company or payment information...
+                            </div>
+                            <div class="col-12 col-sm-5 text-grey text-90 order-first order-sm-last">
+
+                                <div class="row my-2 align-items-center bgc-primary-l3 p-2">
+                                    <div style="color:azure" class="col-7 text-right">
+                                        Total Amount
+                                    </div>
+                                    <div style="color:aliceblue" class="col-5">
+                                        <span class="text-150 text-success-d3 opacity-2">$ @ViewBag.transaction.Action</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+
+    </script>
+</body>
+
+</html>
